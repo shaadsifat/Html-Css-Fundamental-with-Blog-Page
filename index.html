@@ -3,134 +3,141 @@
   <head>
     <meta charset="UTF-8" />
     <title>The Basic Language of the Web: HTML</title>
+    <link href="style.css" rel="stylesheet" />
   </head>
 
   <body>
-    <header>
-      <h1>📘 The Code Magazine</h1>
+    <div class="container">
+      <header class="main-header">
+        <h1>📘 The Code Magazine</h1>
 
-      <nav>
-        <a href="#">Blog</a>
-        <a href="#">Challenges</a>
-        <a href="#">Flexbox</a>
-        <a href="#">CSS Grid</a>
-      </nav>
-    </header>
-
-    <article>
-      <header>
-        <h2>The Basic Language of the Web: HTML</h2>
-
-        <img src="img/shaad-sifat.jpg" alt="Shaad Sifat" width="50px" />
-
-        <p>
-          Posted by <strong>Md Shaad Uddin Sifat</strong> on Monday, May 12th
-          2025
-        </p>
-
-        <img src="img/post-img.jpg" alt="Html code on a screen" width="500px" />
+        <nav>
+          <a href="#">Blog</a>
+          <a href="#">Challenges</a>
+          <a href="#">Flexbox</a>
+          <a href="#">CSS Grid</a>
+        </nav>
       </header>
 
-      <p>
-        All modern websites and web applications are built using three
-        <em>fundamental</em>
-        technologies: HTML, CSS, and JavaScript. These are known as the
-        languages of the web.
-      </p>
+      <article>
+        <header class="post-header">
+          <h2>The Basic Language of the Web: HTML</h2>
 
-      <p>
-        In this article, we'll focus on HTML. Let’s explore what HTML is and why
-        it’s a great idea for you to learn it.
-      </p>
+          <img src="img/shaad-sifat.jpg" alt="Shaad Sifat" width="50px" />
 
-      <h3>What is HTML?</h3>
+          <p>
+            Posted by <strong>Md Shaad Uddin Sifat</strong> on Monday, May 12th
+            2025
+          </p>
 
-      <p>
-        HTML stands for <strong>H</strong>yper<strong>T</strong>ext
-        <strong>M</strong>arkup <strong>L</strong>anguage. It’s a markup
-        language — not a programming language — that web developers use to
-        structure and define the content of web pages.
-      </p>
-
-      <p>
-        HTML is made up of elements that describe different types of content,
-        such as: paragraphs, links, headings, images & videos. Web browsers read
-        and interpret HTML code to display websites as we see them.
-      </p>
-
-      <p>Each HTML element generally includes three main parts:</p>
-
-      <ol>
-        <li>The opening tag</li>
-        <li>The closing tag</li>
-        <li>The content or actual element</li>
-      </ol>
-
-      <p>
-        You can learn more at the
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-          target="_blank"
-          >MDN Web Dics.</a
-        >
-      </p>
-
-      <h3>Why should you learn HTML?</h3>
-
-      <p>
-        There are plenty of great reasons to learn this essential web language.
-        Here are five:
-      </p>
-
-      <ul>
-        <li>To understand and use the foundation of web development</li>
-        <li>
-          To design and build beautiful websites manually, rather than depending
-          on tools like WordPress or Wix
-        </li>
-        <li>To create your own web applications</li>
-        <li>To impress your friends 😎</li>
-        <li>And of course, to have fun while learning something new!</li>
-      </ul>
-
-      <p>
-        Hopefully, this gave you a helpful introduction to HTML. See you next
-        time!
-      </p>
-    </article>
-
-    <aside>
-      <h4>Related posts</h4>
-
-      <ul>
-        <li>
           <img
-            src="img/related-1.jpg"
-            alt="Man Coding in computer"
-            width="75px"
+            src="img/post-img.jpg"
+            alt="Html code on a screen"
+            class="post-image"
           />
-          <a href="#">How to Learn Web Development</a>
-          <p>By Jonas Schmedtmann</p>
-        </li>
-        <li>
-          <img src="img/related-2.jpg" alt="Lightning" width="75px" />
-          <a href="#">The Unknown Powers of CSS</a>
-          <p>By Jim Dillon</p>
-        </li>
-        <li>
-          <img
-            src="img/related-3.jpg"
-            alt="Javascript code in screen"
-            width="75px"
-          />
-          <a href="#">Why JavaScript is Awesome</a>
-          <p>By Matilda</p>
-        </li>
-      </ul>
-    </aside>
+        </header>
 
-    <footer>
-      <p>Copyright &copy; 2025 by The Code Magazine.</p>
-    </footer>
+        <p>
+          All modern websites and web applications are built using three
+          <em>fundamental</em>
+          technologies: HTML, CSS, and JavaScript. These are known as the
+          languages of the web.
+        </p>
+
+        <p>
+          In this article, we'll focus on HTML. Let’s explore what HTML is and
+          why it’s a great idea for you to learn it.
+        </p>
+
+        <h3>What is HTML?</h3>
+
+        <p>
+          HTML stands for <strong>H</strong>yper<strong>T</strong>ext
+          <strong>M</strong>arkup <strong>L</strong>anguage. It’s a markup
+          language — not a programming language — that web developers use to
+          structure and define the content of web pages.
+        </p>
+
+        <p>
+          HTML is made up of elements that describe different types of content,
+          such as: paragraphs, links, headings, images & videos. Web browsers
+          read and interpret HTML code to display websites as we see them.
+        </p>
+
+        <p>Each HTML element generally includes three main parts:</p>
+
+        <ol>
+          <li>The opening tag</li>
+          <li>The closing tag</li>
+          <li>The content or actual element</li>
+        </ol>
+
+        <p>
+          You can learn more at the
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+            target="_blank"
+            >MDN Web Dics.</a
+          >
+        </p>
+
+        <h3>Why should you learn HTML?</h3>
+
+        <p>
+          There are plenty of great reasons to learn this essential web
+          language. Here are five:
+        </p>
+
+        <ul>
+          <li>To understand and use the foundation of web development</li>
+          <li>
+            To design and build beautiful websites manually, rather than
+            depending on tools like WordPress or Wix
+          </li>
+          <li>To create your own web applications</li>
+          <li>To impress your friends 😎</li>
+          <li>And of course, to have fun while learning something new!</li>
+        </ul>
+
+        <p>
+          Hopefully, this gave you a helpful introduction to HTML. See you next
+          time!
+        </p>
+      </article>
+
+      <aside>
+        <h4>Related posts</h4>
+
+        <ul class="related">
+          <li>
+            <img
+              src="img/related-1.jpg"
+              alt="Man Coding in computer"
+              width="75px"
+            />
+            <a href="#">How to Learn Web Development</a>
+            <p>By Jonas Schmedtmann</p>
+          </li>
+          <li>
+            <img src="img/related-2.jpg" alt="Lightning" width="75px" />
+            <a href="#">The Unknown Powers of CSS</a>
+            <p>By Jim Dillon</p>
+          </li>
+          <li>
+            <img
+              src="img/related-3.jpg"
+              alt="Javascript code in screen"
+              width="75px"
+            />
+            <a href="#">Why JavaScript is Awesome</a>
+            <p>By Matilda</p>
+          </li>
+        </ul>
+      </aside>
+
+      <footer>
+        <p>Copyright &copy; 2025 by The Code Magazine.</p>
+      </footer>
+    </div>
   </body>
 </html>
